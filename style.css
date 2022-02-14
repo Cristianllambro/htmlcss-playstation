@@ -8,6 +8,22 @@
     color: rgb(114, 114, 114);
 }
 
+.light-gray{
+    background-color: rgb(190, 188, 187 );
+}
+
+.dark-gray{
+    background-color: rgb(31, 31, 31);
+}
+
+.dark-blue{
+    background-color: rgb(22, 28, 59);
+}
+
+.light-blue{
+    background-color: rgb(0, 57, 156);
+}
+
 .black{
     background-color: black;
     display: flex;
@@ -28,7 +44,7 @@
 }
 
 .text-item{
-    padding-top: 20em;
+    margin-top: 20em;
 }
 
 .jumbo .btn-radius{
@@ -55,10 +71,61 @@
     margin-bottom: 4rem;
 }
 
+.margin-t-6{
+    margin-top: 5rem;
+}
+
+.margin-t-5{
+    margin-top: 4rem;
+}
+
+.padding-b-6{
+    padding-bottom: 6rem;
+}
+
 .back-op{
     opacity: 0.6;
 }
 
 .border-b-blue{
     border-bottom: 2px solid #0061ff;
+}
+
+.it-take{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.it-takes-logo{
+    width: 40%;
+}
+
+.margin-top-img{
+    margin-top: 10rem;
+}
+
+.banner-plus{
+    height: 100%;
+}
+
+.fa-trademark{
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.ps-plus{
+    width: 40%;
+}
+
+.ps-now{
+    width: 70%;
+}
+
+.fa-globe{
+    padding-right: .5rem;
+}
+
+.sie-logo{
+    width: 20%;
 }
