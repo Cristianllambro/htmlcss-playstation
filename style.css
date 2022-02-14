@@ -18,6 +18,8 @@
 
 .returnal{
     background-image: url(img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .text-item{
