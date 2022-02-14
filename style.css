@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.black img{
+    width: 70px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.returnal{
+    background-image: url(img/jumbo-bg.png);
+}
+
+.text-item{
+    padding-top: 20em;
+}
+
+.jumbo .btn-radius{
+    border-radius: 1.25rem;
+}
+
+.returnal-logo{
+    width: 40%;
+}
