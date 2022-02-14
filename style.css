@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.gray{
+    color: rgb(114, 114, 114);
+}
+
 .black{
     background-color: black;
     display: flex;
@@ -20,7 +24,7 @@
     background-image: url(img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .text-item{
@@ -33,4 +37,28 @@
 
 .returnal-logo{
     width: 40%;
+}
+
+.border-5{
+    border-radius: 15px;
+}
+
+.border-6{
+    border-radius: 20px;
+}
+
+.margin-b{
+    margin-bottom: 6rem;
+}
+
+.margin-b-4{
+    margin-bottom: 4rem;
+}
+
+.back-op{
+    opacity: 0.6;
+}
+
+.border-b-blue{
+    border-bottom: 2px solid #0061ff;
 }
