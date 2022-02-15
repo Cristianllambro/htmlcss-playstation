@@ -76,7 +76,7 @@
 }
 
 .img-tra:hover{
-    transform: translatey(10%);
+    transform: translatey(-10%);
 }
 
 .returnal{
@@ -134,9 +134,22 @@
     border-bottom: 2px solid #0061ff;
 }
 
+.scale{
+    transition: transofrm 1s;
+}
+
+.scale:hover{
+    transform: scale(1.05);
+}
+
+.cursor{
+    cursor: pointer;
+}
+
 .over_adv:hover{
     opacity: 1;
     border-bottom: 2px solid #0061ff;
+    cursor: pointer;
 }
 
 .btn_play:hover{
@@ -198,3 +211,5 @@
 .sie-logo{
     width: 20%;
 }
+
+
