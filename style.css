@@ -144,6 +144,12 @@
     box-shadow: 0px 0px 0px 5px #0061ff;
 }
 
+.btn_gray-one:hover{
+    outline: 2px solid #bebcbb;
+    box-shadow: 0px 0px 0px 4px white;
+}
+
+
 .it-take{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -152,6 +158,11 @@
 }
 .it-takes-logo{
     width: 40%;
+}
+
+.btn-dark-blue:hover{
+    outline: 2px solid #161c3b;
+    box-shadow: 0px 0px 0px 4px white;
 }
 
 .social{
