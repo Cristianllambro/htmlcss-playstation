@@ -57,6 +57,10 @@
     padding-left: .2rem;
 }
 
+.chev-rot:focus{
+    transform: rotate(180deg);
+}
+
 .btn-out:hover{
     box-shadow: 0px 0px 0px 4px #dc3545;
     outline: 2px solid white;
@@ -92,6 +96,23 @@
 .img-tra:hover{
     transform: translatey(-10%);
 }
+
+.img-shadow{
+    transition: box-shadow 1s;
+}
+
+.img-shadow:hover{
+    box-shadow: 0px 20px 20px 0px darkgray;
+}
+
+.bo-white{
+    border: 1px solid white;
+}
+
+.bo-blue{
+    box-shadow: 0px 0px 0px 2px #0061ff;
+}
+
 
 .returnal{
     background-image: url(img/jumbo-bg.png);
