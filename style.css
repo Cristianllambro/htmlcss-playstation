@@ -57,7 +57,7 @@
     padding-left: .2rem;
 }
 
-.chev-rot:focus{
+.chev-rot:active img{
     transform: rotate(180deg);
 }
 
@@ -80,7 +80,7 @@
 }
 
 .over-ps:hover{
-    box-shadow: 0px 0px 5px 2px rgb(114, 114, 114);
+    box-shadow: 0px 0px 8px rgb(114, 114, 114);
 }
 
 .black img{
@@ -110,9 +110,12 @@
 }
 
 .bo-blue{
-    box-shadow: 0px 0px 0px 2px #0061ff;
+    box-shadow: 0px 0px 0px 3px #0061ff;
 }
 
+.out-blue{
+    outline: 3px solid #0061ff;
+}
 
 .returnal{
     background-image: url(img/jumbo-bg.png);
@@ -170,7 +173,7 @@
 }
 
 .scale{
-    transition: transofrm 1s;
+    transition: all 1s;
 }
 
 .scale:hover{
@@ -232,7 +235,7 @@
 }
 
 .ps-plus{
-    width: 40%;
+    width: 60%;
 }
 
 .ps-now{
@@ -245,6 +248,10 @@
 
 .sie-logo{
     width: 20%;
+}
+
+.list-foot li{
+    margin-bottom: .4rem;
 }
 
 
