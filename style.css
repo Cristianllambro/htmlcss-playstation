@@ -24,10 +24,24 @@
     background-color: rgb(0, 57, 156);
 }
 
+#text-pri:hover{
+    color: #0061ff;
+}
+
 .black{
     background-color: black;
     display: flex;
     justify-content: flex-end;
+}
+
+#giochidropdown:hover,
+#hardwaredropdown:hover,
+#serviziDropdown:hover,
+#novitaDropdown:hover,
+#acquistiDropdown:hover,
+#supportoDropdown:hover,
+#playstationDropdown:hover{
+    color: #0061ff;
 }
 
 .fa-circle{
