@@ -34,6 +34,10 @@
     justify-content: flex-end;
 }
 
+.sony-logo{
+    width: 80px;
+}
+
 #giochidropdown:hover,
 #hardwaredropdown:hover,
 #serviziDropdown:hover,
